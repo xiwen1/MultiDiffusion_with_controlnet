@@ -1,6 +1,10 @@
 # MultiDiffusion with controlnet
 
-This code is based on https://github.com/omerbt/MultiDiffusion. By adding controlnet into MultiDiffusion's region based diffusion pipeline, you can generate images with both region and sketch control, writing prompts for every mask. You can get more precise control over single controlnet or single MultiDiffusion through combination of the two.
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=xiwen1/MultiDiffusion_with_controlnet)
+
+This code is based on https://github.com/omerbt/MultiDiffusion. 
+
+By adding controlnet into MultiDiffusion's region based diffusion pipeline, you can generate images with both region and sketch control, writing prompts for every mask. You can get more precise control over single controlnet or single MultiDiffusion through combination of the two.
 
 ## Usage
 1. install requirements
@@ -16,3 +20,6 @@ python multidiffusion_controlnet.py \
 --fg_negative small multiple \
 --sketch 'sketch/simp_house_sketch_converted.jpg'
 ```
+
+## Examples
+Stay tuned.
